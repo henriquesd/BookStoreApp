@@ -13,6 +13,6 @@ namespace BookStoreApp.API.Dtos
         [StringLength(150, ErrorMessage = "The field {0} must be between {2} and {1} characters", MinimumLength = 2)]
         public string Description { get; set; }
 
-        public virtual ICollection<BookDto> Books { get; set; }
+        // public IEnumerable<BookDto> Books { get; set; }
     }
 }

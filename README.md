@@ -13,6 +13,10 @@ Install-Package Microsoft.EntityFrameworkCore.Relational
 Install-Package Microsoft.EntityFrameworkCore.SqlServer
 ```
 
+### Swagger (BookStoreApp.API)
+```
+Install-Package Swashbuckle.AspNetCore
+```
 
 -----------------------------------------------------
 

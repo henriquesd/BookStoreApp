@@ -6,8 +6,8 @@ namespace BookStoreApp.Domain.Interfaces
 {
     public interface ICategoryService : IDisposable
     {
-        Task Add(Category category);
-        Task Update(Category category);
-        Task Remove(Guid id);
+        Task<bool> Add(Category category);
+        Task<bool> Update(Category category);
+        Task<bool> Remove(Guid id);
     }
 }

@@ -10,8 +10,5 @@ namespace BookStoreApp.Domain.Interfaces
         Task<IEnumerable<Book>> GetBooksByCategory(Guid categoryId);
         Task<IEnumerable<Book>> GetBooksCategories();
         Task<Book> GetBookCategory(Guid id);
-
-
-        
     }
 }
